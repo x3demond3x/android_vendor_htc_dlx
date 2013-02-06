@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/agps_rm:system/etc/agps_rm \
   vendor/htc/dlx/proprietary/bin/adaptive:system/bin/adaptive \
+  vendor/htc/dlx/proprietary/bin/rild:system/bin/rild \
   vendor/htc/dlx/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/dlx/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
   vendor/htc/dlx/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
@@ -138,6 +139,7 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
   vendor/htc/dlx/proprietary/lib/hw/nfc.dlx.so:system/lib/hw/nfc.dlx.so \
   vendor/htc/dlx/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+  vendor/htc/dlx/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
   vendor/htc/dlx/proprietary/lib/libpn544_fw.so:system/lib/libpn544_fw.so \
   vendor/htc/dlx/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/htc/dlx/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -199,6 +201,9 @@ PRODUCT_COPY_FILES += \
   vendor/htc/dlx/proprietary/etc/firmware/tzapps.mdt:system/etc/firmware/tzapps.mdt \
   vendor/htc/dlx/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/htc/dlx/proprietary/vendor/firmware/mfg.bin:system/vendor/firmware/mfg.bin \
+  vendor/htc/dlx/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+  vendor/htc/dlx/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+  vendor/htc/dlx/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
   vendor/htc/dlx/proprietary/lib/libwvm.so:system/lib/libwvm.so \
   vendor/htc/dlx/proprietary/lib/libwvdrm_L1.so:system/lib/libwvdrm_L1.so \
   vendor/htc/dlx/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
